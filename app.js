@@ -1,4 +1,3 @@
-// require dependencies and library files/helpers
 const connection = require('./config/connection');
 const inquirer = require('inquirer');
 const create = require('./lib/create');
