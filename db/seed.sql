@@ -4,7 +4,7 @@ USE company_db;
 INSERT INTO department (id, name) 
 VALUES 
 (1,'Production'),
-(2,'Research and Development'),
+(2,'Client Engagement'),
 (3,'Operations'),
 (4,'Marketing'),
 (5,'Finance');
@@ -25,10 +25,10 @@ VALUES
 INSERT INTO role (id, title, salary, department_id)
 VALUES
 (1,'Intern',50000,4),
-(2,'Lead Engineer',200000,2),
-(3,'Software Engineer',175000,2),
-(4,'Quality Engineer',150000,2),
+(2,'Fullstack Developer',200000,2),
+(3,'Front End Developer',175000,2),
+(4,'Project Manager',150000,2),
 (5,'Operations Manager',120000,3),
 (6,'Brand Manager',130000,4),
-(7,'Producer',170000,1),
+(7,'Account Manager',170000,1),
 (8,'Accountant',100000,5);
