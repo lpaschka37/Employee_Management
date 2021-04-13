@@ -1,0 +1,27 @@
+{
+  "name": "employee_management_sys",
+  "version": "1.0.0",
+  "description": "Fullstack Homework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpaschka37/Employee_Management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpaschka37/Employee_Management/issues"
+  },
+  "homepage": "https://github.com/lpaschka37/Employee_Management#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  }
+}
